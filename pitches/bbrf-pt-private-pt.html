@@ -8,6 +8,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
+/* Plain-language help beside the instrument terms. */
+.bbrf-glossary{margin:1.25rem 0;padding:0 1rem;border:1px solid var(--border);border-radius:8px;color:var(--navy);}
+.bbrf-glossary summary{min-height:44px;padding:.75rem 0;cursor:pointer;font-weight:600;}
+.bbrf-glossary summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px;}
+.bbrf-glossary dl{margin:0 0 1rem;line-height:1.65;}
+.bbrf-glossary dt{font-weight:700;margin-top:.75rem;}
+.bbrf-glossary dd{margin:0;}
+
 :root{
   --bg:#f9f7f3; --surface:#ffffff; --surface2:#f3efe8;
   --navy:#16283c; --navy2:#2c4258; --ink:#1d2b3a; --ink2:#46586a; --ink3:#7d8a97;
@@ -264,6 +272,15 @@ footer{max-width:960px;margin:0 auto;padding:3rem 2rem;font-size:.72rem;color:va
       <circle r="3.5" fill="#00704F" opacity="0.8"><animateMotion dur="1.3s" repeatCount="indefinite" begin="0.4s"><mpath href="#pp4"/></animateMotion></circle>
     </svg>
   </div>
+  <details class="bbrf-glossary">
+    <summary>Termos explicados</summary>
+    <dl>
+      <dt>SOPARFI</dt><dd>a sociedade holding luxemburguesa da estrutura proposta.</dd>
+      <dt>SPV (sociedade de propósito específico)</dt><dd>uma sociedade separada para cada imóvel.</dd>
+      <dt>PIK (pagamento em espécie)</dt><dd>o dividendo preferencial acumula-se em vez de ser pago imediatamente em dinheiro; consulte as condições indicativas abaixo.</dd>
+      <dt>LTV (rácio empréstimo/valor)</dt><dd>o montante do empréstimo em dívida dividido pelo valor da garantia.</dd>
+    </dl>
+  </details>
   <div class="tblwrap">
     <table>
       <thead><tr><th>Termo</th><th>Detalhe</th></tr></thead>
